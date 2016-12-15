@@ -1,0 +1,114 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>主要有机物的结构与反应机理</title>
+<link href="images/style.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="Jmol.js"></script>
+<script type="text/javascript" src="js/utils.js"></script>
+
+</head>
+
+<body onload="init()">
+<div id="container">
+  <div id="top"></div>
+  <div id="banner"></div>
+  <div id="menu">
+    <ul>
+      <li id="plan"><a href="index.html"></a></li>
+      <li id="mechanism"><a href="mechanism.html" class="active"></a></li>
+      <li id="biography"><a href="biography.html"></a></li>
+      <li id="model"><a href="model.html"></a></li>
+      <li id="vibration"><a href="vibration.html"></a></li>
+      <li id="chemoffice"><a href="chemoffice.html"></a></li>
+    </ul>
+  </div>
+  <div id="main">
+    <div class="sidebar">
+		<h1>主要有机物的结构与反应机理</h1>
+		<ul>
+      	<li>
+        	<span>原子轨道和分子轨道</span>
+            <ul>
+            	<li><a href="原子轨道S、P轨道.html">原子轨道S、P轨道</a></li>
+                <li><a href="甲烷中的成键轨道.html">甲烷中的成键轨道</a></li>
+                <li><a href="乙烯中的成键轨道.html">乙烯中的成键轨道</a></li>
+                <li><a href="乙炔中的成键轨道.html">乙炔中的成键轨道</a></li>
+                <li><a href="丙二烯中的成键轨道.html">丙二烯中的成键轨道</a></li>
+                <li><a href="1,3-丁二烯的π轨道.html">1,3-丁二烯的π轨道</a></li>
+                <li><a href="苯中的成键轨道.html">苯中的成键轨道</a></li>
+                <li><a href="苯的π轨道.html">苯的π轨道</a></li>
+                <li><a href="甲醛中的成键轨道.html">甲醛中的成键轨道</a></li>
+                <li><a href="芳香性和π轨道.html">芳香性和π轨道</a></li>
+            </ul>
+        </li>
+        <li><span>反应机理</span>
+          <ul>
+            <li><a href="烯烃的亲电加成反应.html">烯烃的亲电加成反应</a></li>
+            <li><a href="烯烃与溴化氢加成.html">烯烃与溴化氢加成反应</a></li>
+            <li><a href="丁二烯溴化的1,2-加成和1,4-加成.html">丁二烯溴化的1,2-加成和1,4-加成</a></li>
+            <li><a href="溴甲烷的SN2取代反应.html">溴甲烷的S<sub>N</sub>2取代反应</a></li>
+            <li><a href="邻基参与效应.html">邻基参与效应</a></li>
+            <li><a href="E2消除反应的立体选择性.html">E2消除反应的立体选择性</a></li>
+            <li><a href="E1消除反应.html">E1消除反应</a></li>
+            <li><a href="醛式和烯醇式互变异构.html">醛式和烯醇式互变异构</a></li>
+            <li><a href="饱和醛酮与HCN的亲核加成反应.html">饱和醛、酮与HCN的亲核加成反应</a></li>
+            <li><a href="共轭醛酮加成反应.html">共轭醛、酮加成反应</a></li>
+            <li><a href="酸催化酯水解反应和酸催化酯生成反应.html">酸催化酯水解反应和酸催化酯生成反应</a></li>
+            <li><a href="频哪醇重排.html">频哪醇重排</a></li>
+            <li><a href="重氮盐的频那醇重排反应.html">重氮盐的频哪醇重排反应</a></li>
+            <li><a href="电环化反应的立体专一性.html">电环化反应的立体专一性</a></li>
+            <li><a href="电环化反应环丁烯顺旋方式.html">电环化反应环丁烯顺旋方式</a></li>
+            <li><a href="电环化反应己三烯对旋方式.html">电环化反应己三烯对旋方式</a></li>
+            <li><a href="亲双烯体的环加成立体化学.html">亲双烯体的环加成立体化学</a></li>
+            <li><a href="二烯的Diels-Alder反应.html">二烯的Diels-Alder反应</a></li>
+            <li><a href="环戊二烯的氢-σ迁移.html">环戊二烯的[1,5]氢-<em>σ</em>迁移</a></li>
+          </ul>
+        </li>
+		</ul>
+    </div>
+    <div class="content mechanism">
+   		<div id="bgControl">
+            <span class="skyblue"></span>
+            <span class="white"></span>
+            <span class="black"></span>
+            <span class="palegreen"></span>
+            <span class="yellow"></span>
+        </div>
+         <h2>电环化反应的立体专一性</h2>
+         <div id="stage">
+       		<applet name="jmol" code="JmolApplet" archive="JmolApplet.jar" codebase="."
+                 width="400" height="300" mayscript="false">
+              <param name="progressbar" value="true"/>
+              <param name="script" value="load model/pericyclic/anti4nconrotation.xyz;connect aromatic auto;moveto 1.0 { -256 871 419 170.64} 100.0 0.1 0.08 {0.0 -1.00016594E-4 0.67435} 5.260072 {0.0 0.0 0.0} 0.46120086 5.0636673 50.0;wireframe 0.1;spacefill 20%;connect 1.78 2.49 (atomno=3) (atomno=6) PARTIAL;connect 1.327 1.47 (atomno=1) (atomno=2) PARTIALDOUBLE;connect 1.33 1.49 (atomno=1) (atomno=6) PARTIALDOUBLE;connect 1.33 1.49 (atomno=2) (atomno=3) PARTIALDOUBLE;"/>
+            </applet>
+            <div id="readme">Jmol是用Java语言编写的程序，需要安装Java运行环境。使用其他操作系统的用户，请自行下载1.4版本以
+
+上的jre。<a href="download/jre-6u16-windows-i586.exe">点击下载</a>（win）</div>
+        </div>
+        <div id="toolbar">
+                
+                <span onclick="normalSize()">正常</span>
+                <span onclick="fullSize()">满屏</span>
+            </div>
+            <div>
+				<img src="images/14_电环化反应的立体专一性.jpg" width="510" height="207" border="0" usemap="#Map" />
+	   		</div>
+    </div>
+    <div class="clear-left"></div>
+  </div>
+  <div id="footer">高等教育出版社 高等教育电子音像出版社</div>
+</div>
+
+<map name="Map" id="Map">
+  <area shape="rect" coords="2,11,92,87" href="javascript:jmolScript('load model/pericyclic/anti4nconrotation.xyz;connect aromatic auto;moveto 0.0 { -256 871 419 170.64} 100.0 0.1 0.08 {0.0 -1.00016594E-4 0.67435} 5.260072 {0.0 0.0 0.0} 0.46120086 5.0636673 50.0;wireframe 0.1;spacefill 20%;connect 1.78 2.49 (atomno=3) (atomno=6) PARTIAL;connect 1.327 1.47 (atomno=1) (atomno=2) PARTIALDOUBLE;connect 1.33 1.49 (atomno=1) (atomno=6) PARTIALDOUBLE;connect 1.33 1.49 (atomno=2) (atomno=3) PARTIALDOUBLE;draw draw1 ARROW {-0.086771965 -0.0018825531 0.08577728} {-0.52497864 1.552885 0.4477272} {0.45352173 0.5520793 0.8324957};draw draw2 fill noMesh noDots notFrontOnly fullylit;color draw opaque [xffa500];draw draw2 ARROW {-0.11090374 0.07358456 1.6749458} {-1.1149389 1.0675926 1.4884682} {-0.7024784 -0.3604145 0.82434267};draw draw1 fill noMesh noDots notFrontOnly fullylit;color draw opaque [xffa500];')" />
+  <area shape="rect" coords="108,19,154,52" href="javascript:jmolScript('load model/pericyclic/anti4nconrotation.xyz;connect aromatic auto;moveto 0.0 { -256 871 419 170.64} 100.0 0.1 0.08 {0.0 -1.00016594E-4 0.67435} 5.260072 {0.0 0.0 0.0} 0.46120086 5.0636673 50.0;wireframe 0.1;spacefill 20%;connect 1.78 2.49 (atomno=3) (atomno=6) PARTIAL;connect 1.327 1.47 (atomno=1) (atomno=2) PARTIALDOUBLE;connect 1.33 1.49 (atomno=1) (atomno=6) PARTIALDOUBLE;connect 1.33 1.49 (atomno=2) (atomno=3) PARTIALDOUBLE;wireframe 0.1;anim mode once;frame 1; delay 0.5; anim on;set echo bottom center;font echo 16 sansserif bold;echo Plays once through, then stops;')" />
+  <area shape="rect" coords="162,5,291,87" href="javascript:jmolScript('load model/pericyclic/anti4nconrotation.xyz;connect aromatic auto;frame 25;moveto 0.0 { -159 849 504 151.97} 100.0 0.1 0.08 {0.0 -1.00016594E-4 0.67435} 5.260072 {0.0 0.0 0.0} -1.4936479 6.1740766 50.0;wireframe 0.1;spacefill 20%;connect 1.78 2.49 (atomno=3) (atomno=6) PARTIAL;connect 1.327 1.47 (atomno=1) (atomno=2) PARTIALDOUBLE;connect 1.33 1.49 (atomno=1) (atomno=6) PARTIALDOUBLE;connect 1.33 1.49 (atomno=2) (atomno=3) PARTIALDOUBLE;')" />
+  <area shape="rect" coords="393,17,507,74" href="javascript:jmolScript('load model/pericyclic/anti4nconrotation.xyz;connect aromatic auto;frame 81;moveto 0.0 { -49 730 682 174.73} 100.0 0.18 0.08 {0.0 -1.00016594E-4 0.67435} 5.260072 {0.0 0.0 0.0} 0.09774433 6.8403454 50.0;wireframe 0.1;spacefill 20%;connect 1.78 2.49 (atomno=3) (atomno=6) PARTIAL;connect 1.327 1.47 (atomno=1) (atomno=2) PARTIALDOUBLE;connect 1.33 1.49 (atomno=1) (atomno=6) PARTIALDOUBLE;connect 1.33 1.49 (atomno=2) (atomno=3) PARTIALDOUBLE;wireframe 0.1;spacefill 20%;')" />
+  <area shape="rect" coords="5,125,101,203" href="javascript:jmolScript('load model/pericyclic/conrotationsyn.xyz;connect aromatic auto;wireframe 0.1;spacefill 20%;moveto 0.0 { 992 -81 99 119.9} 100.0 0.2 0.08 {0.0 -1.00016594E-4 0.67435} 5.260072 {0.0 0.0 0.0} -0.3920403 -5.569417 50.0;connect 1.77 2.6 (atomno=4) (atomno=6) PARTIAL;connect 1.327 1.465 (atomno=1) (atomno=2) PARTIALDOUBLE;connect 1.332 1.5 (atomno=2) (atomno=4) AROMATIC;connect 1.324 1.495(atomno=1) (atomno=6) PARTIALDOUBLE;draw draw1 ARROW {-0.24276066 -0.5275879 0.49276543} {-0.30127907 -0.22185898 -0.54139674} {-0.9651146 -0.8551185 -0.13995552};draw draw1 fill noMesh noDots notFrontOnly fullylit;color draw opaque [xffa500];draw draw2 ARROW {-0.3185978 -1.4131947 -0.44395638} {0.11151886 -0.7071552 -0.9820652} {0.43740463 -1.0966845 -0.006869316};draw draw2 fill noMesh noDots notFrontOnly fullylit;color draw opaque [xffa500];')" />
+  <area shape="rect" coords="106,134,156,166" href="javascript:jmolScript('load model/pericyclic/conrotationsyn.xyz;connect aromatic auto;wireframe 0.1;spacefill 20%;moveto 0.0 { 992 -81 99 119.9} 100.0 0.2 0.08 {0.0 -1.00016594E-4 0.67435} 5.260072 {0.0 0.0 0.0} -0.3920403 -5.569417 50.0;connect 1.77 2.6 (atomno=4) (atomno=6) PARTIAL;connect 1.327 1.465 (atomno=1) (atomno=2) PARTIALDOUBLE;connect 1.332 1.5 (atomno=2) (atomno=4) AROMATIC;connect 1.324 1.495(atomno=1) (atomno=6) PARTIALDOUBLE;frame 1; delay 0.5; anim on;set echo bottom center;font echo 16 sansserif bold;echo Plays once through, then stops')" />
+  <area shape="rect" coords="162,116,298,211" href="javascript:jmolScript('load model/pericyclic/conrotationsyn.xyz;connect aromatic auto;wireframe 0.1;spacefill 20%;moveto 0.0 { 992 -81 99 119.9} 100.0 0.29 0.18 {0.0 -1.00016594E-4 0.67435} 5.260072 {0.0 0.0 0.0} -0.29582226 -6.1805825 50.0;frame 21;connect 1.77 2.6 (atomno=4) (atomno=6) PARTIAL;connect 1.327 1.465 (atomno=1) (atomno=2) PARTIALDOUBLE;connect 1.332 1.5 (atomno=2) (atomno=4) AROMATIC;connect 1.324 1.495(atomno=1) (atomno=6) PARTIALDOUBLE;')" />
+  <area shape="rect" coords="389,130,507,204" href="javascript:jmolScript('load model/pericyclic/conrotationsyn.xyz;connect aromatic auto;wireframe 0.1;spacefill 20%;moveto 0.0 { 999 6 42 145.28} 100.0 0.2 0.08 {0.0 -1.00016594E-4 0.67435} 5.260072 {0.0 0.0 0.0} -0.31737784 -4.099003 50.0;connect 1.77 2.6 (atomno=4) (atomno=6) PARTIAL;connect 1.327 1.465 (atomno=1) (atomno=2) PARTIALDOUBLE;connect 1.332 1.5 (atomno=2) (atomno=4) AROMATIC;connect 1.324 1.495(atomno=1) (atomno=6) PARTIALDOUBLE;frame 78;')" />
+</map>
+</body>
+</html>

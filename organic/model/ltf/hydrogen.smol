@@ -1,0 +1,862 @@
+INPUT=256~780~ARCHIVE=1330~2186~PROPARC=3516~3927~PROPIN=0~0~MOLSTATE=1036~248~VIBSTATE=1284~26~OUTPUT=7513~1801~CELLS=1310~20~ISOD=0~0~ISOE=0~0~RETCODE=7443~70~VOUT=9314~20926~                                                                              
+BEGININPUT
+  OPT B3LYP 6-31G* 
+hydrogen
+0 1
+ 1   0.000000000   0.000000000  -0.001000003
+ 1   0.000000000   0.000000000   0.740999997
+ENDCART
+EMPTYVAL
+ENDEMPTYVAL
+PLANE
+ENDPLANE
+POINT
+ENDPOINT
+ISOTOPE
+ENDISOTOPE
+FROZEN
+ENDFROZEN
+TRANSITION
+ENDTRANSITION
+ATOMALIGN
+ENDATOMALIGN
+ATOMLABELS
+"H1"
+"H2"
+ENDATOMLABELS
+MOLFONT
+Helvetica
+12
+ENDMOLFONT
+LABELTYPE
+LABELATOM
+ENDLABELTYPE
+SEARCHCENTER
+ENDSEARCHCENTER
+BEGINFORMALCHARGE
+ENDFORMALCHARGE
+BEGINRES
+ENDRES
+HESSIAN
+   -1   -1
+    1    2    1
+ENDHESS
+SEARCHLINK
+ENDSEARCHLINK
+LIGAND
+ENDLIGAND
+STRUCTMODEL
+3 0 524288 0
+ENDSTRUCTMODEL
+ALIGN
+  1.000000 0.000000 0.000000 0.000000
+  0.000000 1.000000 0.000000 0.000000
+  0.000000 0.000000 1.000000 0.000000
+  0.000000 0.000000 0.000000 1.000000
+ENDALIGN
+BEGINPROPIN
+
+ENDPROPIN
+ENDINPUT
+BEGINMOLSTATE
+MODEL=3~HYDROGEN=1~LABELS=0
+  0.42377612 -0.73880959 -0.52399862  0.00000000 -0.35792360 -0.66802180  0.65240914  0.00000000
+ -0.83204818 -0.08892397 -0.54752886  0.00000000  0.00000000  0.00000000  0.00000000  1.00000000
+ENDMOLSTATE
+BEGINVIBSTATE
+ENDVIBSTATE
+BEGINCELLS
+ENDCELLS
+BEGINARCHIVE
+External AB INITIO PROGRAM: converted archive file
+Jobname.Temp
+   2   4   4   8   0   1   4   0 RB3LYP   6-31G(d)        OPT                  
+GEOMETRY
+  1     0.0000000     0.0000000    -0.7016283
+  1     0.0000000     0.0000000     0.7016283
+BASIS
+   0   3   1   1   0
+   0   1   4   1   0
+   0   3   5   2   0
+   0   1   8   2   0
+   1.8731137000D+01
+   2.1493541833D-01   0.0000000000D+00   0.0000000000D+00   0.0000000000D+00
+   2.8253937000D+00
+   3.6457112721D-01   0.0000000000D+00   0.0000000000D+00   0.0000000000D+00
+   6.4012170000D-01
+   4.1505142766D-01   0.0000000000D+00   0.0000000000D+00   0.0000000000D+00
+   1.6127780000D-01
+   1.8138068393D-01   0.0000000000D+00   0.0000000000D+00   0.0000000000D+00
+   1.8731137000D+01
+   2.1493541833D-01   0.0000000000D+00   0.0000000000D+00   0.0000000000D+00
+   2.8253937000D+00
+   3.6457112721D-01   0.0000000000D+00   0.0000000000D+00   0.0000000000D+00
+   6.4012170000D-01
+   4.1505142766D-01   0.0000000000D+00   0.0000000000D+00   0.0000000000D+00
+   1.6127780000D-01
+   1.8138068393D-01   0.0000000000D+00   0.0000000000D+00   0.0000000000D+00
+ENERGY
+  -1.1754842338D+00   0.0000000000D+00
+WAVEFUNC   6-31G(d)   QCHEM 
+  -4.3400168823D-01   1.0014927289D-01   5.8128532817D-01   1.1074590668D+00
+   3.3266257379D-01   2.6693474678D-01   3.3266258649D-01   2.6693479091D-01
+   1.8015396056D-01   1.6374454286D+00  -1.8015395525D-01  -1.6374454151D+00
+   7.6481225881D-01  -6.8857626895D-01   7.6481222820D-01  -6.8857624286D-01
+  -1.1127817100D+00   1.4328428408D+00   1.1127817281D+00  -1.4328428606D+00
+HESSIAN 6-31G(d)
+   6
+   2.6549939285D-03
+   0.0000000000D+00   2.6549939285D-03
+   0.0000000000D+00   0.0000000000D+00   3.7949256267D-01
+  -2.6549939285D-03   0.0000000000D+00   0.0000000000D+00   2.6549939285D-03
+   0.0000000000D+00  -2.6549939285D-03   0.0000000000D+00   0.0000000000D+00
+   2.6549939285D-03
+   0.0000000000D+00   0.0000000000D+00  -3.7949256267D-01   0.0000000000D+00
+   0.0000000000D+00   3.7949256267D-01
+GEOMETRY2
+  1        0.00000000000000        0.00000000000000       -0.70162830000000
+  1        0.00000000000000        0.00000000000000        0.70162830000000
+ENDARCHIVE
+BEGINPROPARC
+              Spartan Properties Archive 117
+    
+PROP STRING INITIAL_KEYWORDS 3 BEGIN
+     "OPT"
+     "B3LYP"
+     "6-31G*"
+END
+PROP STRING CALCULATION_VERSION = " 124_"
+PROP STRING CALCULATION_TARGET = "PowerPC(Darwin)"
+PROP STRING MACHINEHOSTNAME = "ngmac.ch.liv.ac.uk"
+PROP  VALUE ORIGINAL_ATOM_COUNT =       2.000000000 
+PROP  VALUE ORIGINAL_COORDS BYATOM  3 BEGIN
+        0.0000000       0.0000000   -0.0010000030       0.0000000       0.0000000       0.7410000 
+END
+PROP  VALUE SCF_ITERS =       4.000000000 
+PROP  VALUE SCF_CTIME =      0.1200000000 
+PROP  VALUE CORR_ENERGIES 1 BEGIN
+       -1.1754842 
+END
+PROP  VALUE QM_DIPOLE 3 BEGIN
+        0.0000000       0.0000000  -1.7325650E-07 
+END
+PROP  VALUE QM_QUADPOLE 6 BEGIN
+       -0.4242347      -0.4242347       0.8484695       0.0000000       0.0000000       0.0000000 
+END
+PROP  VALUE QM_OCTPOLE 10 BEGIN
+        0.0000000       0.0000000  -1.5555428E-07       0.0000000   7.7777142E-08       0.0000000 
+        0.0000000       0.0000000   7.7777142E-08       0.0000000 
+END
+PROP  VALUE OPT_CYCLES =       2.000000000 
+PROP  VALUE SOLV_SM54_A =       2.384378351 
+PROP  VALUE BE_TIME_SE_MIN =       0.000000000 
+PROP  VALUE PROP_KEYWORDS =       0.000000000 
+PROP  VALUE PROP_ISOTOPES 0  2 BEGIN
+END
+PROP STRING SYM_STRING = "Dih"
+PROP  VALUE E_KCAL =      -737.6275946 
+PROP STRING DO_QSAR = "STARTED"
+PROP  VALUE ATOMIC_CPK_VOLUME BYATOM BEGIN
+        5.2451732       5.2451732 
+END
+PROP  VALUE ATOMIC_CPK_AREA BYATOM BEGIN
+       11.8472153      11.8472153 
+END
+PROP  VALUE CPKVOLUME =       10.49034646 
+PROP  VALUE CPKAREA =       23.69443064 
+PROP  VALUE OVALITY =       1.022434748 
+PROP  VALUE WEIGHT =       2.016000000 
+PROP  VALUE HOMO_N =       1.000000000 
+PROP  VALUE E_HOMO =     -0.4340016882 
+PROP  VALUE E_LUMO =      0.1001492729 
+PROP  VALUE TOT_ELECTRONEG =      0.1669262077 
+PROP  VALUE TOT_HARDNESS =      0.2670754806 
+PROP  VALUE LogP_GC =     -0.4212000000 
+PROP  VALUE MO_ENERGY 4 BEGIN
+       -0.4340017       0.1001493       0.5812853       1.1074591 
+END
+DIPOLE
+          0.0000000       0.0000000  -1.7326237E-07
+PROP  VALUE DIPOLE_VEC 3 BEGIN
+        0.0000000       0.0000000  -1.7326237E-07 
+END
+PROP  VALUE DIPOLE_MAG =   1.732623743E-07 
+PROP  VALUE Q_MINUS_MUL =  -5.581121920E-08 
+PROP  VALUE Q_PLUS_MUL =   5.578995532E-08 
+MULLIKEN
+      5.5789955E-08  -5.5811219E-08
+PROP  VALUE MULCHARGES BYATOM BEGIN
+    5.5789955E-08  -5.5811219E-08 
+END
+PROP  VALUE Q_MINUS_NAO =  -2.978065328E-08 
+PROP  VALUE Q_PLUS_NAO =   2.975939117E-08 
+NPA
+      2.9759391E-08  -2.9780653E-08
+PROP  VALUE NATCHARGES BYATOM BEGIN
+    2.9759391E-08  -2.9780653E-08 
+END
+PROP  VALUE CHELP_INFO =       1025.501000 
+PROP  VALUE Q1_POINTS =       2.000000000 
+PROP  VALUE Q1_COORDS 2  3 BEGIN
+        0.0000000       0.0000000      -0.7016283       0.0000000       0.0000000       0.7016283 
+END
+PROP  VALUE Q1_CHARGES 2 BEGIN
+    4.4689813E-08  -4.4689813E-08 
+END
+PROP  VALUE Q1_RMS =       3.632913093 
+PROP  VALUE Q1_PRMS =      0.9235530590 
+PROP  VALUE Q1_ATOMIC_MM BYATOM  10 BEGIN
+    4.4689813E-08       0.0000000       0.0000000       0.0000000       0.0000000       0.0000000 
+        0.0000000       0.0000000       0.0000000       0.0000000 
+   -4.4689813E-08       0.0000000       0.0000000       0.0000000       0.0000000       0.0000000 
+        0.0000000       0.0000000       0.0000000       0.0000000 
+END
+CHELP
+      4.4689813E-08  -4.4689813E-08
+PROP  VALUE ESPCHARGES BYATOM BEGIN
+    4.4689813E-08  -4.4689813E-08 
+END
+PROP  VALUE CHELP_RMS =       3.632913093 
+PROP  VALUE CHELP_PRMS =       3.632913093 
+PROP  VALUE MOMENT_I_cm 3 BEGIN
+        0.0000000      60.6688052      60.6688052 
+END
+PROP  VALUE MOMENT_I 3 BEGIN
+        0.0000000       0.2778636       0.2778636 
+END
+PROP  VALUE TOTAL_MASS =       2.015650000 
+ PROP VALUE PROP_TIME_MIN =     0.003
+PROP VALUE TOTAL_WALL_TIME =        0.1362
+ENDPROPARC
+BEGINRETCODE
+    0 0 164 sp_property
+Successful completion
+ENDRETCODE
+BEGINOUTPUT
+
+MacSPARTAN '04 MECHANICS PROGRAM: MAC/G5             build 124   
+  (Job run on ngmac.ch.liv.ac.uk)
+
+
+ Reading coordinates from previous archive
+
+  Reason for exit: Successful completion
+  Mechanics CPU Time :   0:00:00.0
+  Mechanics Wall Time:   0:00:00.5
+
+MacSPARTAN '04 Quantum Mechanics Program:  (PowerPC(Darwin))  build  124f
+
+Job type: Geometry optimization.
+Method: RB3LYP
+Basis set: 6-31G(D)
+Number of shells: 4
+Number of basis functions: 4
+
+SCF model:
+ A restricted hybrid HF-DFT SCF calculation will be
+ performed using Pulay DIIS extrapolation
+
+
+Optimization:
+         Step      Energy          Max Grad.      Max Dist. 
+            1      -1.1754839       0.000557       0.001080
+            2      -1.1754842       0.000147       0.000388
+
+  Program Wall Time:    0:00:05.0
+  Reason for exit: Successful completion 
+  Quantum Mechanics Program CPU Time :   0:00:00.5
+  Quantum Mechanics Program Wall Time:   0:00:04.8
+
+
+MacSPARTAN '04 Semi-Empirical Program:  (PowerPC(Darwin))     build  124       
+   Job run on machine : ngmac.ch.liv.ac.uk                      
+    Semi-empirical Property Calculation 
+
+  HYDROGEN                                                                   
+
+  Guess from Archive
+    
+  Energy Due to Solvation
+   Solvation Energy SM5.4/A          2.384
+  Memory Used:          18.50 Kb
+  Reason for exit: Successful completion
+  Semi-Empirical Program CPU Time :   0:00:00.0
+  Semi-Empirical Program Wall Time:   0:00:00.4
+
+
+SPARTAN PROPERTIES PACKAGE: MAC/G5             build 124                       
+   
+   
+  Reason for exit: Successful completion
+  Properties Program CPU Time :   0:00:00.2
+  Properties Program Wall Time:   0:00:00.6
+
+molecule hydrogen terminated normally
+
+
+
+End-   molecule "hydrogen" Tue Oct  3 09:47:36 2006
+ENDOUTPUT
+BEGINVOUTPUT
+               MacSPARTAN '04 
+          build 124 (Jul 27 2005)
+
+ Wavefunction Developers: 
+    B.J. Deppmeier, A.J. Driessen, T.S. Hehre, W.J. Hehre, 
+    J.A. Johnson, P.E. Klunzinger, J.M. Leonard, I.N. Pham 
+    W.J. Pietro, Jianguo Yu 
+ 
+ Q-Chem Developers:  
+   J. Kong, C.A. White, A.I. Krylov, C.D. Sherrill,  
+   R.D. Adamson, T.R. Furlani, M.S. Lee, A.M. Lee,  
+   S.R. Gwaltney, T.R. Adams, C. Ochsenfeld, A.T.B. Gilbert,  
+   G.S. Kedziora,  V.A. Rassolov, D. R. Maurice, N. Nair,  
+   Y. Shao, N.A. Besley, P.E. Maslen, J.P. Dombroski,  
+   H. Dachsel, W.M. Zhang, P.P. Korambath, J. Baker,  
+   E.F. C. Byrd, T. Van Voorhis, M. Oumi, S. Hirata,  
+   C.P. Hsu, N. Ishikawa, J. Florian, A. Warshel,  
+   B.G. Johnson, P.M.W. Gill, M. Head-Gordon, J.A. Pople  
+ 
+ Wavefunction Inc.           Sales:   sales@wavefun.com  
+ Irvine CA                   Support: support@wavefun.com  
+                             Web:     www.wavefun.com   
+ 
+Copyright © 1995 - 2005 
+----------------------------------------------------
+
+Job run on "ngmac.ch.liv.ac.uk" (PowerMac 2.00 Ghz[dual processor] G5)
+
+           Spartan 'O4 Quantum Mechanics Module    124
+
+ Macintosh (OS-X ppc)
+
+--------------------------------------------------------------
+User input:
+--------------------------------------------------------------
+$comment
+hydrogen
+$end
+$molecule
+ 0 1
+    1                0                0    -0.3709999779
+    1                0                0     0.3709999779
+$end
+$rem
+JOBTYPE    OPT
+TIDY_SYM   TRUE
+EXCHANGE     	B3LYP
+CORRELATION  	none  (built-in)
+INCDFT       	TRUE
+VARTHRESH    	2
+BASIS        	6-31G(d)
+USE_SP_DERIV 	2
+GEOM_OPT_HESSIAN      READ
+EXTERNAL_HESSIAN      TRUE
+GUI          	 GUI_SPARTAN
+TERSE_OUTPUT 	 TRUE
+$end
+$opt
+$end
+--------------------------------------------------------------
+Processing $rem in /Applications/Spartan04/Spartan 04_104b4IRC.app/Contents/MacOS/../SharedSupport//qchem/aux/../config/preferences.
+   (Site specific preferences.)
+  ... THRESH             9
+  ... SCF_CONVERGENCE    7
+  ... SMALL_PROD_XCMAT   9
+  ... BASIS_LIN_DEP_THRESH     5
+  ... ONEEXE_SPAR	TRUE
+  ... GUI              GUI_SPARTAN
+  ... TERSE_OUTPUT     TRUE
+Processing $rem in system registry
+  ... MEM_TOTAL 720 # MB 
+Processing $rem in the input.
+  ... JOBTYPE    OPT
+  ... TIDY_SYM   TRUE
+  ... EXCHANGE     	B3LYP
+  ... CORRELATION  	none  (built-in)
+  ... INCDFT       	TRUE
+  ... VARTHRESH    	2
+  ... BASIS        	6-31G(d)
+  ... USE_SP_DERIV 	2
+  ... GEOM_OPT_HESSIAN      READ
+  ... EXTERNAL_HESSIAN      TRUE
+  ... GUI          	 GUI_SPARTAN
+  ... TERSE_OUTPUT 	 TRUE
+
+Total Memory Limit in MB = 720
+Mega-Array Size in MB = 31
+ ----------------------------------------------------
+       Standard Nuclear Orientation (Angstroms)
+    I     Atom         X            Y            Z
+ ----------------------------------------------------
+    1      H        .000000      .000000     -.371000
+    2      H        .000000      .000000      .371000
+ ----------------------------------------------------
+ Molecular Point Group                 D*h   NOp =***
+ Largest Abelian Subgroup              D2h   NOp =  1
+ Nuclear Repulsion Energy =      .7131769279 hartrees
+ There are        1 alpha and        1 beta electrons
+ Requested basis set is 6-31G(d)
+ There are 4 shells and 4 basis functions
+
+-------------------------------------------------
+-  Entering fldman on Tue Oct  3 09:47:31 2006  -
+-------------------------------------------------
+
+ Standard Electronic Orientation quadrupole field applied
+ Nucleus-field energy     =    -0.0000000003 hartrees
+
+-------------------------------------------------
+-  Entering gesman on Tue Oct  3 09:47:31 2006  -
+-------------------------------------------------
+
+ A cutoff of  1.0D-09 yielded     10 shell pairs
+ There are     10 function pairs
+ Smallest overlap matrix eigenvalue = 9.66E-02
+ Multipole matrices computed through 2nd order
+ Guess from superposition of atomic densities
+ Warning:  Energy on first SCF cycle will be non-variational
+
+-------------------------------------------------
+-  Entering scfman on Tue Oct  3 09:47:31 2006  -
+-------------------------------------------------
+
+ Exchange:     0.2000 Hartree-Fock + 0.0800 Slater + 0.7200 Becke
+ Correlation:  0.8100 LYP + 0.1900 VWN1RPA
+ Using SG-1 standard quadrature grid
+ A restricted hybrid HF-DFT SCF calculation will be
+ performed using Pulay DIIS extrapolation
+ Exchange:     0.2000 Hartree-Fock + 0.0800 Slater + 0.7200 Becke
+ Correlation:  0.8100 LYP + 0.1900 VWN1RPA
+ Using SG-1 standard quadrature grid
+ SCF converges when DIIS error is below 1.0E-07
+ ---------------------------------------
+  Cycle       Energy         DIIS Error
+ ---------------------------------------
+    1      -0.9678906813      1.01E-01
+    2      -1.1744027783      1.81E-02
+    3      -1.1755212427      2.44E-04
+Switching Grids 0 -> 1
+    4      -1.1754838494      3.59E-05
+    5      -1.1754838537      5.75E-06
+    6      -1.1754838538      1.48E-08 Convergence criterion met
+ ---------------------------------------
+ SCF time:  CPU 0.15 s  wall 1.00 s
+
+-------------------------------------------------
+-  Entering anlman on Tue Oct  3 09:47:32 2006  -
+-------------------------------------------------
+
+ Analysis of SCF Wavefunction
+ 
+         Mulliken Net Atomic Charges
+
+     Atom                 Charge (a.u.)
+  ----------------------------------------
+      1 H                      .000000
+      2 H                      .000000
+  ----------------------------------------
+  Sum of atomic charges =      .000000
+
+ -----------------------------------------------------------------
+                    Cartesian Multipole Moments
+ -----------------------------------------------------------------
+    Charge (ESU x 10^10)
+                  .0000
+    Dipole Moment (Debye)
+         X        .0000      Y        .0000      Z        .0000
+       Tot        .0000
+    Quadrupole Moments (Debye-Ang)
+        XX      -2.0090     XY        .0000     YY      -2.0090
+        XZ        .0000     YZ        .0000     ZZ      -1.5853
+    Traceless Quadrupole Moments (Debye-Ang)
+       QXX       -.4237    QYY       -.4237    QZZ        .8473
+       QXY        .0000    QXZ        .0000    QYZ        .0000
+    Octapole Moments (Debye-Ang^2)
+       XXX        .0000    XXY        .0000    XYY        .0000
+       YYY        .0000    XXZ        .0000    XYZ        .0000
+       YYZ        .0000    XZZ        .0000    YZZ        .0000
+       ZZZ        .0000
+    Traceless Octapole Moments (Debye-Ang^2)
+       XXX        .0000    YYY        .0000    ZZZ        .0000
+       XXY        .0000    XXZ        .0000    XYY        .0000
+       XYZ        .0000    XZZ        .0000    YYZ        .0000
+       YZZ        .0000
+    Hexadecapole Moments (Debye-Ang^3)
+      XXXX      -1.8413   XXXY        .0000   XXYY       -.6138
+      XYYY        .0000   YYYY      -1.8413   XXXZ        .0000
+      XXYZ        .0000   XYYZ        .0000   YYYZ        .0000
+      XXZZ       -.7844   XYZZ        .0000   YYZZ       -.7844
+      XZZZ        .0000   YZZZ        .0000   ZZZZ      -2.7985
+    Traceless Hexadecapole Moments (Debye-Ang^3)
+      XXXX        .5987   XXXY        .0000   XXXZ        .0000
+      XXYY        .1996   XXYZ        .0000   XXZZ       -.7983
+      XYYY        .0000   XYYZ        .0000   XYZZ        .0000
+      XZZZ        .0000   YYYY        .5987   YYYZ        .0000
+      YYZZ       -.7983   YZZZ        .0000   ZZZZ       1.5965
+ -----------------------------------------------------------------
+
+-------------------------------------------------
+-  Entering drvman on Tue Oct  3 09:47:32 2006  -
+-------------------------------------------------
+
+ Calculating analytic gradient of the SCF energy
+
+MacSPARTAN '04 Fast HF Program:  (PowerPC(Darwin))            build  124       
+  Job run on machine :                ngmac.ch.liv.ac.uk                      
+  Calculation started: Tue Oct  3 09:47:33 2006  
+
+  INTERMEDIATE GRADIENT INPUT                                                
+
+  Run type: Molecular gradient (no SCF)
+  Model: RHF/ABASIS         
+  Number of shells:   4
+     4 S shells
+  Number of basis functions:   4
+  Number of electrons:         2
+  Number of heavy atoms:       0
+  Number of hydrogens:         2
+  Use of molecular symmetry disabled
+  Molecular charge:   0
+  Spin multiplicity:  1
+  Memory model: direct     3.1 Mb
+
+  Point Group = C1  Order =  1 Nsymop =  1
+  This system has   0 degrees of freedom
+
+                  Cartesian gradient (a.u.)
+    Atom         X            Y            Z     
+    ----   ------------ ------------ ------------
+
+    H   1     .0000000     .0000000     .2078684
+    H   2     .0000000     .0000000    -.2078684
+
+  E(HF)  =      -1.1754839 a.u.
+  Memory Used:     .000 Mb
+  Reason for exit: Successful completion
+  Fast HF Program CPU Time :   0:00:00.0
+  Fast HF Program Wall Time:   0:00:00.4
+
+ Gradient of SCF Energy
+            1           2
+    1   0.0000000   0.0000000
+    2   0.0000000   0.0000000
+    3   0.0005572  -0.0005572
+ Max gradient component =       5.572E-04
+ RMS gradient           =       3.217E-04
+ Gradient time:  CPU 0.04 s  wall 1.00 s
+
+-------------------------------------------------
+-  Entering optman on Tue Oct  3 09:47:33 2006  -
+-------------------------------------------------
+
+
+ Cartesian Hessian read from HESS file
+
+
+** GEOMETRY OPTIMIZATION IN DELOCALIZED INTERNAL COORDINATES **
+   Searching for a Minimum
+
+   Optimization Cycle:   1
+
+                       Coordinates (Angstroms)
+     ATOM              X           Y           Z
+    1  H            .000000     .000000    -.371000
+    2  H            .000000     .000000     .371000
+   Point Group: d*h   Number of degrees of freedom:   1
+
+
+   Energy is     -1.175483854
+
+
+ Attempting to Generate Delocalized Internal Coordinates
+
+ Transforming Cartesian Hessian to Internal Coordinates
+ Hessian Transformation does not Include Derivative of B-matrix
+  internal optimization with constraints (0)
+
+  1 Hessian modes will be used to form the next step
+  Hessian Eigenvalues:
+      .018419
+
+ Minimum Search - Taking Simple RFO Step
+ Searching for Lamda that Minimizes Along All modes
+ Value Taken    Lamda =   -.00001684
+ Calculated Step part too Large.  Step scaled by   .035737
+ Step Taken.  Stepsize is   .001080
+
+                             Maximum     Tolerance    Cnvgd?
+         Gradient            .000557       .000300      NO
+         Displacement        .001080       .001200     YES
+         Energy change     -1.175484       .000001      NO
+
+
+ New Cartesian Coordinates Obtained by Inverse Iteration
+
+ Displacement from previous Coordinates is:   .000764
+ ----------------------------------------------------
+       Standard Nuclear Orientation (Angstroms)
+    I     Atom         X            Y            Z
+ ----------------------------------------------------
+    1      H        .000000      .000000     -.371286
+    2      H        .000000      .000000      .371286
+ ----------------------------------------------------
+ Molecular Point Group                 D*h   NOp =***
+ Largest Abelian Subgroup              D2h   NOp =  1
+ Nuclear Repulsion Energy =      .7126280397 hartrees
+ There are        1 alpha and        1 beta electrons
+
+-------------------------------------------------
+-  Entering fldman on Tue Oct  3 09:47:33 2006  -
+-------------------------------------------------
+
+ Applying Cartesian multipole field
+    Component          Value
+    ---------          -----
+     (2,0,0)        1.00000E-10
+     (0,2,0)        2.00000E-10
+     (0,0,2)       -3.00000E-10
+ Nucleus-field energy     =    -0.0000000003 hartrees
+
+-------------------------------------------------
+-  Entering gesman on Tue Oct  3 09:47:33 2006  -
+-------------------------------------------------
+
+ Requested basis set is 6-31G(d)
+ There are 4 shells and 4 basis functions
+ A cutoff of  1.0D-09 yielded     10 shell pairs
+ There are     10 function pairs
+ Smallest overlap matrix eigenvalue = 9.68E-02
+ Multipole matrices computed through 2nd order
+ Guess MOs from SCF MO coefficient file
+
+-------------------------------------------------
+-  Entering scfman on Tue Oct  3 09:47:34 2006  -
+-------------------------------------------------
+
+ A restricted hybrid HF-DFT SCF calculation will be
+ performed using Pulay DIIS extrapolation
+ Exchange:     0.2000 Hartree-Fock + 0.0800 Slater + 0.7200 Becke
+ Correlation:  0.8100 LYP + 0.1900 VWN1RPA
+ Using SG-1 standard quadrature grid
+ SCF converges when DIIS error is below 1.0E-07
+ ---------------------------------------
+  Cycle       Energy         DIIS Error
+ ---------------------------------------
+    1      -1.1753347495      1.17E-04
+Switching Grids 0 -> 1
+    2      -1.1754842333      1.51E-05
+    3      -1.1754842341      2.42E-06
+    4      -1.1754842338      2.31E-08 Convergence criterion met
+ ---------------------------------------
+ SCF time:  CPU 0.12 s  wall 0.00 s
+
+-------------------------------------------------
+-  Entering anlman on Tue Oct  3 09:47:34 2006  -
+-------------------------------------------------
+
+ Analysis of SCF Wavefunction
+ 
+         Mulliken Net Atomic Charges
+
+     Atom                 Charge (a.u.)
+  ----------------------------------------
+      1 H                      .000000
+      2 H                      .000000
+  ----------------------------------------
+  Sum of atomic charges =      .000000
+
+ -----------------------------------------------------------------
+                    Cartesian Multipole Moments
+ -----------------------------------------------------------------
+    Charge (ESU x 10^10)
+                  .0000
+    Dipole Moment (Debye)
+         X        .0000      Y        .0000      Z        .0000
+       Tot        .0000
+    Quadrupole Moments (Debye-Ang)
+        XX      -2.0097     XY        .0000     YY      -2.0097
+        XZ        .0000     YZ        .0000     ZZ      -1.5855
+    Traceless Quadrupole Moments (Debye-Ang)
+       QXX       -.4242    QYY       -.4242    QZZ        .8485
+       QXY        .0000    QXZ        .0000    QYZ        .0000
+    Octapole Moments (Debye-Ang^2)
+       XXX        .0000    XXY        .0000    XYY        .0000
+       YYY        .0000    XXZ        .0000    XYZ        .0000
+       YYZ        .0000    XZZ        .0000    YZZ        .0000
+       ZZZ        .0000
+    Traceless Octapole Moments (Debye-Ang^2)
+       XXX        .0000    YYY        .0000    ZZZ        .0000
+       XXY        .0000    XXZ        .0000    XYY        .0000
+       XYZ        .0000    XZZ        .0000    YYZ        .0000
+       YZZ        .0000
+    Hexadecapole Moments (Debye-Ang^3)
+      XXXX      -1.8425   XXXY        .0000   XXYY       -.6142
+      XYYY        .0000   YYYY      -1.8425   XXXZ        .0000
+      XXYZ        .0000   XYYZ        .0000   YYYZ        .0000
+      XXZZ       -.7851   XYZZ        .0000   YYZZ       -.7851
+      XZZZ        .0000   YZZZ        .0000   ZZZZ      -2.8016
+    Traceless Hexadecapole Moments (Debye-Ang^3)
+      XXXX        .6004   XXXY        .0000   XXXZ        .0000
+      XXYY        .2001   XXYZ        .0000   XXZZ       -.8006
+      XYYY        .0000   XYYZ        .0000   XYZZ        .0000
+      XZZZ        .0000   YYYY        .6004   YYYZ        .0000
+      YYZZ       -.8006   YZZZ        .0000   ZZZZ       1.6011
+ -----------------------------------------------------------------
+
+-------------------------------------------------
+-  Entering drvman on Tue Oct  3 09:47:34 2006  -
+-------------------------------------------------
+
+ Calculating analytic gradient of the SCF energy
+
+MacSPARTAN '04 Fast HF Program:  (PowerPC(Darwin))            build  124       
+  Job run on machine :                ngmac.ch.liv.ac.uk                      
+  Calculation started: Tue Oct  3 09:47:34 2006  
+
+  INTERMEDIATE GRADIENT INPUT                                                
+
+  Run type: Molecular gradient (no SCF)
+  Model: RHF/ABASIS         
+  Number of shells:   4
+     4 S shells
+  Number of basis functions:   4
+  Number of electrons:         2
+  Number of heavy atoms:       0
+  Number of hydrogens:         2
+  Use of molecular symmetry disabled
+  Molecular charge:   0
+  Spin multiplicity:  1
+  Memory model: direct     3.1 Mb
+
+  Point Group = C1  Order =  1 Nsymop =  1
+  This system has   0 degrees of freedom
+
+                  Cartesian gradient (a.u.)
+    Atom         X            Y            Z     
+    ----   ------------ ------------ ------------
+
+    H   1     .0000000     .0000000     .2073624
+    H   2     .0000000     .0000000    -.2073624
+
+  E(HF)  =      -1.1754842 a.u.
+  Memory Used:     .000 Mb
+  Reason for exit: Successful completion
+  Fast HF Program CPU Time :   0:00:00.0
+  Fast HF Program Wall Time:   0:00:00.3
+
+ Gradient of SCF Energy
+            1           2
+    1   0.0000000   0.0000000
+    2   0.0000000   0.0000000
+    3   0.0001473  -0.0001473
+ Max gradient component =       1.473E-04
+ RMS gradient           =       8.505E-05
+ Gradient time:  CPU 0.04 s  wall 1.00 s
+
+-------------------------------------------------
+-  Entering optman on Tue Oct  3 09:47:35 2006  -
+-------------------------------------------------
+
+
+ Cartesian Hessian Update
+ Hessian Updated using BFGS Update
+
+
+** GEOMETRY OPTIMIZATION IN DELOCALIZED INTERNAL COORDINATES **
+   Searching for a Minimum
+
+   Optimization Cycle:   2
+
+                       Coordinates (Angstroms)
+     ATOM              X           Y           Z
+    1  H            .000000     .000000    -.371286
+    2  H            .000000     .000000     .371286
+   Point Group: d*h   Number of degrees of freedom:   1
+
+
+   Energy is     -1.175484234
+
+ Hessian Updated using BFGS Update
+  internal optimization with constraints (0)
+
+  1 Hessian modes will be used to form the next step
+  Hessian Eigenvalues:
+      .379493
+
+ Minimum Search - Taking Simple RFO Step
+ Searching for Lamda that Minimizes Along All modes
+ Value Taken    Lamda =   -.00000006
+ Step Taken.  Stepsize is   .000388
+
+                             Maximum     Tolerance    Cnvgd?
+         Gradient            .000147       .000300     YES
+         Displacement        .000388       .001200     YES
+         Energy change       .000000       .000001     YES
+
+
+                       Distance Matrix (Angstroms)
+             H (  1)
+   H (  2)   .742571
+ 
+
+
+ ******************************
+ **  OPTIMIZATION CONVERGED  **
+ ******************************
+
+-------------------------------------------------
+-  Entering anlman on Tue Oct  3 09:47:35 2006  -
+-------------------------------------------------
+
+ Analysis of SCF Wavefunction
+ 
+         Mulliken Net Atomic Charges
+
+     Atom                 Charge (a.u.)
+  ----------------------------------------
+      1 H                      .000000
+      2 H                      .000000
+  ----------------------------------------
+  Sum of atomic charges =      .000000
+
+ -----------------------------------------------------------------
+                    Cartesian Multipole Moments
+ -----------------------------------------------------------------
+    Charge (ESU x 10^10)
+                  .0000
+    Dipole Moment (Debye)
+         X        .0000      Y        .0000      Z        .0000
+       Tot        .0000
+    Quadrupole Moments (Debye-Ang)
+        XX      -2.0097     XY        .0000     YY      -2.0097
+        XZ        .0000     YZ        .0000     ZZ      -1.5855
+    Traceless Quadrupole Moments (Debye-Ang)
+       QXX       -.4242    QYY       -.4242    QZZ        .8485
+       QXY        .0000    QXZ        .0000    QYZ        .0000
+    Octapole Moments (Debye-Ang^2)
+       XXX        .0000    XXY        .0000    XYY        .0000
+       YYY        .0000    XXZ        .0000    XYZ        .0000
+       YYZ        .0000    XZZ        .0000    YZZ        .0000
+       ZZZ        .0000
+    Traceless Octapole Moments (Debye-Ang^2)
+       XXX        .0000    YYY        .0000    ZZZ        .0000
+       XXY        .0000    XXZ        .0000    XYY        .0000
+       XYZ        .0000    XZZ        .0000    YYZ        .0000
+       YZZ        .0000
+    Hexadecapole Moments (Debye-Ang^3)
+      XXXX      -1.8425   XXXY        .0000   XXYY       -.6142
+      XYYY        .0000   YYYY      -1.8425   XXXZ        .0000
+      XXYZ        .0000   XYYZ        .0000   YYYZ        .0000
+      XXZZ       -.7851   XYZZ        .0000   YYZZ       -.7851
+      XZZZ        .0000   YZZZ        .0000   ZZZZ      -2.8016
+    Traceless Hexadecapole Moments (Debye-Ang^3)
+      XXXX        .6004   XXXY        .0000   XXXZ        .0000
+      XXYY        .2001   XXYZ        .0000   XXZZ       -.8006
+      XYYY        .0000   XYYZ        .0000   XYZZ        .0000
+      XZZZ        .0000   YYYY        .6004   YYYZ        .0000
+      YYZZ       -.8006   YZZZ        .0000   ZZZZ       1.6011
+ -----------------------------------------------------------------
+ 
+ Total job wall time:  5.00 s
+ENDVOUTPUT

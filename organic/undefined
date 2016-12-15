@@ -1,0 +1,60 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>首页 - 电子教案</title>
+<link href="images/style.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="js/copyright.js"></script>
+</head>
+<body>
+<div id="container">
+  <div id="top"></div>
+  <div id="banner"></div>
+  <div id="menu">
+    <ul>
+      <li id="plan"><a href="index.html" class="active"></a></li>
+      <li id="mechanism"><a href="mechanism.html"></a></li>
+      <li id="biography"><a href="biography.html"></a></li>
+      <li id="model"><a href="model.html"></a></li>
+      <li id="vibration"><a href="vibration.html"></a></li>
+      <li id="chemoffice"><a href="chemoffice.html"></a></li>
+    </ul>
+  </div>
+  <div id="main">
+    <div class="content plan">
+      <h1><a href="ppt/part1/">上册</a></h1>
+      <ul>
+        <li><a href="ppt/part1/01第1章_绪论.ppt" target="_blank">第一章 - 绪论</a></li>
+        <li><a href="ppt/part1/02第2章_烷烃.ppt" target="_blank">第二章 - 烷烃</a></li>
+        <li><a href="ppt/part1/03第3章_单烯烃.ppt" target="_blank">第三章 - 单烯烃</a></li>
+        <li><a href="ppt/part1/04第4章_炔烃和二烯烃.ppt" target="_blank">第四章 - 炔烃和二烯烃</a></li>
+        <li><a href="ppt/part1/05第5章_脂环烃.ppt" target="_blank">第五章 - 脂环烃</a></li>
+        <li><a href="ppt/part1/06第6章_对映异构.ppt" target="_blank">第六章 - 对映异构</a></li>
+        <li><a href="ppt/part1/07第7章_芳烃.ppt" target="_blank">第七章 - 芳烃</a></li>
+        <li><a href="ppt/part1/08第8章_现代物理实验方法在有机化学中的应用.ppt" target="_blank">第八章 - 现代物理实验方法在有机化学中的应用</a></li>
+        <li><a href="ppt/part1/09第09章_卤代烃.ppt" target="_blank">第九章 - 卤代烃</a></li>
+        <li><a href="ppt/part1/10第10章_醇酚醚.ppt" target="_blank">第十章 - 醇、酚、醚</a></li>
+        <li><a href="ppt/part1/11第11章_醛和酮.ppt" target="_blank">第十一章 - 醛和酮</a></li>
+      </ul>
+      <h1><a href="ppt/part2/">下册</a></h1>
+      <ul>
+        <li><a href="ppt/part2/12第12章_羧酸.ppt" target="_blank">第十二章 - 羧酸</a></li>
+        <li><a href="ppt/part2/13第13章_羧酸衍生物.ppt" target="_blank">第十三章 - 羧酸衍生物</a></li>
+        <li><a href="ppt/part2/14第14章_含氮有机化合物.ppt" target="_blank">第十四章 - 含氮有机化合物</a></li>
+        <li><a href="ppt/part2/15第15章_含硫含磷和含硅有机化合物.ppt" target="_blank">第十五章 - 含硫含磷和含硅有机化合物</a></li>
+        <li><a href="ppt/part2/16第16章_过渡金属π络合物及其在有机合成中的应用.ppt" target="_blank">第十六章 - 过渡金属π络合物及其在有机合成中的应用</a></li>
+        <li><a href="ppt/part2/17第17章_周环反应.ppt" target="_blank">第十七章 - 周环反应</a></li>
+        <li><a href="ppt/part2/18第18章_杂环化合物.ppt" target="_blank">第十八章 - 杂环化合物</a></li>
+        <li><a href="ppt/part2/19第19章_糖类化合物.ppt" target="_blank">第十九章 - 糖类化合物</a></li>
+        <li><a href="ppt/part2/20第20章_蛋白质和核酸.ppt" target="_blank">第二十章 - 蛋白质和核酸</a></li>
+        <li><a href="ppt/part2/21第21章_萜类和甾族化合物.ppt" target="_blank">第二十一章 - 萜类和甾族化合物</a></li>
+      </ul>
+      <h1>说明：</h1>
+      <p>因为浏览动画时需要用到Jmol，请在使用本光盘前安装<a href="download/jre-6u16-windows-i586.exe">Java Runtime Environment (JRE)</a>。</p>
+    </div>
+    <div class="clear-left"></div>
+  </div>
+  <div id="footer">你好</div>
+</div>
+</body>
+</html>

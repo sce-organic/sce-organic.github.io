@@ -1,0 +1,66 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>主要有机物的结构与反应机理</title>
+<link href="images/style.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="Jmol.js"></script>
+<script type="text/javascript" src="js/submenu.js"></script>
+
+</head>
+<body>
+<div id="container">
+  <div id="top"></div>
+  <div id="banner"></div>
+  <div id="menu">
+    <ul>
+      <li id="plan"><a href="index.html"></a></li>
+      <li id="mechanism"><a href="mechanism.html" class="active"></a></li>
+      <li id="biography"><a href="biography.html"></a></li>
+      <li id="model"><a href="model.html"></a></li>
+      <li id="vibration"><a href="vibration.html"></a></li>
+      <li id="chemoffice"><a href="chemoffice.html"></a></li>
+    </ul>
+  </div>
+  <div id="main">
+    <div class="sidebar">
+      <h1>主要有机物的结构与反应机理</h1>
+     <script>document.write(mechanism)</script>
+    </div>
+    <div class="content mechanism">
+    	<table>
+    	<caption>共轭丁二烯的π轨道</caption>
+		  <tr>
+		  	<td align="center"><script type="text/javascript" language="JavaScript">jmolApplet(300,"load model/ltf/ethylene.smol;spin on;mo homo;mo nomesh;mo fill;")</script></td>
+		  </tr>
+          <tr>
+          	<td><script>
+	       jmolButton("load model/ltf/ethylene.smol;spin on;","重新加载球棒模型");
+	      jmolButton("load model/ltf/ethylene.smol;spin on;wireframe on;spacefill off;","加载细线模型");	     
+	      jmolButton('select (carbon);lcaoCartoon create "sp2a" create "sp2b" create "sp2c"',"显示sp2骨架");
+	      jmolButton('select (carbon);lcaoCartoon color red blue create "pz"',"显示剩余的p轨道");
+   	      jmolButton('mo 8',"显示形成的pi轨道");
+   	      jmolButton('select (hydrogen);lcaoCartoon color white create "pxy"',"加载H 1s");</script></td>
+          </tr>
+          <tr>
+          	<td>
+            <img src="images/06_丁二烯的分子轨道.jpg" width="510" height="443" border="0" usemap="#Map" />
+	       </td>
+          </tr>
+    	</table>      
+    </div>
+    <div class="clear-left"></div>
+  </div>
+  <div id="footer">高等教育出版社 高等教育电子音像出版社</div>
+</div>
+
+<map name="Map" id="Map">
+  <area shape="rect" coords="42,54,206,134" href="javascript:jmolScript('load model/ltf/ethylene.smol;spin on;mo lumo;')" />
+  <area shape="rect" coords="301,-3,411,81" href="javascript:jmolScript('load model/aromaticityMO/1,3-butadieneT.smol;moveto 1.0 { -988 125 89 38.2};mo color blue red;mo lumo+1;spin on;')" />
+  <area shape="rect" coords="300,93,412,188" href="javascript:jmolScript('load model/aromaticityMO/1,3-butadieneT.smol;moveto 1.0 { -988 125 89 38.2};mo color red blue;mo lumo;spin on;')" />
+  <area shape="rect" coords="58,265,209,343" href="javascript:jmolScript('load model/ltf/ethylene.smol;spin on;mo homo;mo nomesh;mo fill;')" />
+  <area shape="rect" coords="293,201,417,292" href="javascript:jmolScript('load model/aromaticityMO/1,3-butadieneT.smol;moveto 1.0 { -988 125 89 38.2};mo color red blue;mo homo;mo nomesh;mo fill;spin on;')" />
+  <area shape="rect" coords="298,318,408,406" href="javascript:jmolScript('load model/aromaticityMO/1,3-butadieneT.smol;moveto 1.0 { -988 125 89 38.2};mo homo-1;mo color blue red;mo nomesh;mo fill;spin on;')" />
+</map>
+</body>
+</html>

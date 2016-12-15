@@ -1,0 +1,149 @@
+==============================================================================
+===                                  Jmol                                  ===
+==============================================================================
+
+
+Jmol es un visor de moléculas y un editor; es de código abierto y está 
+escrito en Java.
+
+Toda la información está disponible en http://www.jmol.org/
+
+Las preguntas o comentarios relativos a su uso deben enviarse a 
+jmol-users@lists.sourceforge.net  (en inglés)
+
+Las preguntas, comentarios y sugerencias relativos a su desarrollo deben
+enviarse a jmol-developers@lists.sf.net  (en inglés)
+
+
+Lista de archivos incluidos:
+--------------------
+
+- LEAME.txt
+	Este archivo.
+		
+- README.txt
+	La versión en inglés de este archivo.
+
+- COPYRIGHT.txt
+	Información sobre los derechos de copia.
+
+- LICENSE.txt
+	Los términos de uso y distribución de Jmol (licencia GNU LGPL).
+		
+- Jmol.jar
+	  El archivo ejecutable de la aplicación Jmol (un programa escrito en
+	Java). Funciona como cualquier otro programa: se abre en su
+	propia ventana, se puede redimensionar o minimizar, se puede arrastrar 
+	y soltar archivos sobre él, tiene una barra superior de menú, puede 
+	abrir y grabar archivos, etc. Puede ejecutarse desde la línea de comandos 
+	(particularmente, usando los archivos por lotes que se describen a
+	continuación) pero, si Java está correctamente configurado en tu 
+	sistema, normalmente basta con hacer doble clic en este archivo.
+
+- jmol
+	(Un tipo de archivo por lotes para iniciar la aplicación Jmol)
+	
+- jmol.bat
+	Archivo por lotes para iniciar la aplicación en Windows.
+		
+- jmol.mac
+	(Un tipo de archivo por lotes para iniciar la aplicación Jmol)
+		
+- jmol.sh
+	Un archivo de instrucciones para iniciar la aplicación Jmol en
+	sistemas de tipo Unix, por ejemplo Linux, BSD, Solaris o
+	Cygwin para Windows.
+
+- JmolApplet.jar
+	  La miniaplicación ("applet"), es decir, una versión del programa
+	que sólo funciona cuando está incrustada en una página web.
+	  Se trata en este caso de un archivo "todo en uno" o "monolítico"
+	que se mantiene principalmente por compatibilidad con páginas
+	antiguas que lo invoquen explícitamente. El método recomendado
+	actualmente es el uso de la versión subdividida (JmolApplet0.jar etc.,
+	descrita más abajo). En particular, Jmol.js utiliza la versión subdividida.
+	  Te puede interesar utilizar este archivo si quieres mantener
+	sencillo tu sitio web, o si sólo quieres actualizar un archivo jar
+	cuando lleguen versiones nuevas de Jmol. Sin embargo, este Jmol se
+	cargará algo más lentamente que las versiones subdivididas, puesto 
+	que es preciso que se descargue al equipo del usuario el programa 
+	completo, con todos sus componentes, antes de que se pueda mostrar 
+	una estructura.
+	  Para llamar a JmolApplet.jar desde Jmol.js:
+	a) ponlo en la misma carpeta que contiene la página HTML que lo
+		requiere y no uses jmolInitialize()
+	o bien
+	b) identifícalo explícitamente en jmolInitialize(), por ejemplo:
+		jmolInitialize("carpeta-que-contiene-los-archivos-jar", "JmolApplet.jar")
+
+- JmolAppletSigned.jar
+	  Una versión  equivalente de la miniaplicación, pero en este caso
+	es una miniaplicación "firmada" o "confiable" (terminología de seguridad
+	en el lenguaje Java). Esto significa que para ejecutarse debe previamente
+	ser autorizada por el usuario visitante de la página web y, de ser así,
+	habrá menos restricciones de seguridad para el acceso a archivos. Por 
+	ejemplo, podrá acceder a archivos en cualquier parte del ordenador del
+	usuario y en cualquier otro servidor web.
+	  Habitualmente, los usuarios recibirán un aviso prguntándoles si quieren
+	"aceptar el certificado" o si "confían" en la miniaplicación; sin embargo, 
+	esta prestación de seguridad no siempre está activada. Si decides usar 
+	JmolAppletSigned.jar, debes tener esto en cuenta.
+	  Aparte de la lectura de archivos, Jmol no utiliza ninguna otra capacidad
+	de las miniaplicaciones firmadas, como acceder al portapapeles del sistema
+	o grabar archivos. Usa la miniaplicación firmada sólo si sabes lo que estás
+	haciendo y has tenido en cuenta las cuestiones de seguridad.
+	  Para llamar a JmolAppletSigned.jar desde Jmol.js:
+		jmolInitialize("carpeta-que-contiene-los-archivos-jar", "JmolAppletSigned.jar")
+		                  
+- Jmol.js
+	  Esta es la bilioteca de funciones, escrita en el lenguaje JavaScript,
+	que ayuda en la preparación de páginas web que usen la miniaplicación
+	Jmol sin necesidad de conocer y escribir código detallado específico
+	para la miniaplicación.
+	  Esta biblioteca usa por defecto la versión subdividida de la 
+	miniaplicación (firmada o no).
+	  Está documentada en detalle en http://jmol.org/jslibrary/ 
+
+- JmolApplet0.jar  y
+  JmolApplet0(diversosSufijos).jar
+	  La miniaplicación se divide en varios trozos de acuerdo con su 
+	funcionalidad, de modo que si una página no precisa determinado 
+	componente,	éste no se descargará desde el servidor. Aun así, se
+	recomienda que pongas todos los archivos JmolApplet0*.jar en el 
+	servidor, incluso si tus páginas no usan sus prestaciones, pues 
+	tanto el menú emergente como la consola permiten a los usuarios
+	acceder a funciones de Jmol que tú no hayas previsto.
+	  El conjunto de todos estos archivos es equivalente al archivo
+	único JmolApplet.jar.
+	  Esta versión subdividida es la que se usa de forma predeterminada 
+	si utilizas Jmol.js. Para ello, basta usar la forma más simple de
+	jmolInitialize(), indicando sólo la carpeta que contiene el conjunto
+	de archivos jar:
+		jmolInitialize("carpeta-que-contiene-los-archivos-jar")
+	por ejemplo,
+		jmolInitialize(".")  
+			(si los archivos jar están en la misma carpeta que la página web)
+		jmolInitialize("../jmol") 
+			(si los archivos jar están en una carpeta paralela, llamada 'jmol')
+  
+- JmolAppletSigned0.jar  y
+  JmolAppletSigned0(diversosSufijos).jar
+	  La versión firmada de la miniaplicación subdividida. Esta versión 
+	permite que el usuario acceda a archivos en cualquier parte de su
+	ordenador y en cualquier servidor web.
+	Habitualmente, los usuarios recibirán un aviso pidiéndoles que acepten 
+	el certificado para **cada uno** de los archivos jar que se pueden cargar
+	(actualmente, 16). Por esta razón, es probable que esta versión no
+	sea de uso habitual.
+	  El conjunto de todos estos archivos es equivalente al archivo
+	único JmolAppletSigned.jar.
+	  Para llamar a esta versión desde Jmol.js:
+	a) jmolInitialize("carpeta-que-contiene-los-archivos-jar", true)
+	o bien
+	b) jmolInitialize("carpeta-que-contiene-los-archivos-jar", "JmolAppletSigned0.jar")
+
+---------------------------
+Teniendo en cuenta las descripciones anteriores, observarás que el paquete
+de distribución de Jmol contiene 4 copias completas de la miniaplicación
+(firmada or no, subdividida o no).
+---------------------------

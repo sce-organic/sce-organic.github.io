@@ -1,0 +1,54 @@
+@charset "utf-8";
+body {background: #f1f1e4 url(body-bg.jpg) repeat-x;padding:0;margin:19px 0 0 0;}
+.clear-left{clear:left;}
+sub{vertical-align:-0.2em;}
+.italic sub{ font-style:italic;}
+#container{margin:0 auto; width:787px; font-family: 'Microsoft YaHei',黑体,Tahoma,sans-serif;}
+#top{background:url(top.jpg); width:787px; height:15px;font-size:0;}
+#banner{background:url(banner.jpg); width:787px; height:198px;}
+#menu{background:url(menu.jpg);width:787px; height:45px; }
+#menu ul{list-style:none; padding:0 0 0 9px; margin:0;}
+#menu li{float:left; display:inline-block;margin-right:1px;}
+#menu li a{display:block; height:38px; border-top:5px #030 solid;}
+#menu .active{border-top:5px #090 solid;}
+#menu li a:hover{border-top:5px #090 solid;}
+#plan{width:59px;}
+#mechanism{width:165px;}
+#biography{width:69px;}
+#model{width:166px;}
+#vibration{width:188px;}
+#chemoffice{width:118px;}
+#main{background:url(content-bg.jpg) repeat-y; width:769px; padding:0 9px}
+#main a{ text-decoration:none; border-bottom:1px blue solid;}
+.sidebar {float:left; display:inline; margin:10px 0 0 10px; border:1px #ccc solid; width:220px;}
+.sidebar h1{background:#9dc553 url(sidebar-title-bg.jpg) repeat-x; font-family:"黑体";font-size:14px; color:#FFF; padding:8px 10px; margin:0;}
+.sidebar ul{list-style:none; padding:5px 10px; margin:0; font-size:12px;}
+.sidebar li{line-height:1.5em; padding:0; margin:0;}
+.content{float:left; margin:10px 0 0 10px; padding:10px;}
+.content h1{font-size:16px; clear:left;}
+.content ul{list-style:none;}
+.content ul li{float:left; display:inline-block; margin:0 10px; line-height:1.5em; font-size:12px;}
+.plan{width:729px;white-space:nowrap;}
+.plan p{text-indent:2em;}
+.mechanism{ width:485px;}
+.biography{width:485px; padding:0 10px;}
+.biography div{clear:left; display:none;}
+.biography .first{display:block;}	
+.biography h1{text-align:center;font-family:"华文行楷"}
+.biography p{text-indent: 2em;font-family:"楷体";line-height:1.5em;}
+.vibration p{text-indent:2em;}
+.vibration {margin:10px 24px;}
+.vibration img{border:0;}
+.model{width:485px;}
+.chemoffice{margin:10px 24px 0; }
+#chemoffice-ppt{width:700px;height:525px;}
+.subtitle{cursor: pointer; background-image:url(plus.gif); background-repeat:no-repeat; background-position:left center; padding-left:14px;}
+#readme{display:none;}
+#bgControl{text-align:right;}
+#bgControl span{ display:inline-block;width:20px; height:20px; border:1px #ccc solid;}
+#stage{clear:left; text-align:center;margin-top:10px;width:480px;position:relative;}
+#toolbar{text-align:center;padding:5px;}
+#toolbar span{border:1px #ccc solid; cursor:pointer; font-size:12px; padding:2px 5px; background-color:#FFC;white-space:nowrap;display:-moz-inline-box; display:inline-block;margin:2px 0;}
+#pics{text-align:center;}
+#pics img{width:400px; cursor:pointer;}
+#footer{background:url(foot.jpg) no-repeat;width:787px; height:80px;padding:15px; text-align:center;}
