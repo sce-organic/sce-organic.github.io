@@ -1,69 +1,89 @@
 ﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
+
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>首页 - 电子教案</title>
-<link href="images/style.css" rel="stylesheet" type="text/css" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>首页 - 电子教案</title>
+    <link href="images/style.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="js/utils.js"></script>
 </head>
-<body>
-<div id="container">
-  <div id="top"></div>
-  <div id="banner"></div>
-  <div id="menu">
-    <ul>
-      <li id="plan"><a href="index.html" class="active"></a></li>
-      <li id="mechanism"><a href="mechanism.html"></a></li>
-      <li id="biography"><a href="biography.html"></a></li>
-      <li id="model"><a href="model.html"></a></li>
-      <li id="vibration"><a href="vibration.html"></a></li>
-      <li id="chemoffice"><a href="chemoffice.html"></a></li>
-    </ul>
-  </div>
-  <div id="main">
-    <div class="content plan">
-      <h1><a href="ppt/" target="_blank">上册</a></h1>
-      <ul>
-        <li><a href="ppt/01第1章_绪论.ppt" target="_blank">第一章 - 绪论</a></li>
-        <li><a href="ppt/02第2章_烷烃.ppt" target="_blank">第二章 - 烷烃</a></li>
-        <li><a href="ppt/03第3章_单烯烃.ppt" target="_blank">第三章 - 单烯烃</a></li>
-        <li><a href="ppt/04第4章_炔烃和二烯烃.ppt" target="_blank">第四章 - 炔烃和二烯烃</a></li>
-        <li><a href="ppt/05第5章_脂环烃.ppt" target="_blank">第五章 - 脂环烃</a></li>
-        <li><a href="ppt/06第6章_对映异构.ppt" target="_blank">第六章 - 对映异构</a></li>
-        <li><a href="ppt/07第7章_芳烃.ppt" target="_blank">第七章 - 芳烃</a></li>
-        <li><a href="ppt/08第8章_现代物理实验方法在有机化学中的应用.ppt" target="_blank">第八章 - 现代物理实验方法在有机化学中的应用</a></li>
-        <li><a href="ppt/09第09章_卤代烃.ppt" target="_blank">第九章 - 卤代烃</a></li>
-        <li><a href="ppt/10第10章_醇酚醚.ppt" target="_blank">第十章 - 醇、酚、醚</a></li>
-        <li><a href="ppt/11第11章_醛和酮.ppt" target="_blank">第十一章 - 醛和酮</a></li>
-      </ul>
-      <h1><a href="ppt/" target="_blank">下册</a></h1>
-      <ul>
-        <li><a href="ppt/12第12章_羧酸.ppt" target="_blank">第十二章 - 羧酸</a></li>
-        <li><a href="ppt/13第13章_羧酸衍生物.ppt" target="_blank">第十三章 - 羧酸衍生物</a></li>
-        <li><a href="ppt/14第14章_含氮有机化合物.ppt" target="_blank">第十四章 - 含氮有机化合物</a></li>
-        <li><a href="ppt/15第15章_含硫含磷和含硅有机化合物.ppt" target="_blank">第十五章 - 含硫含磷和含硅有机化合物</a></li>
-        <li><a href="ppt/16第16章_过渡金属π络合物及其在有机合成中的应用.ppt" target="_blank">第十六章 - 过渡金属π络合物及其在有机合成中的应用</a></li>
-        <li><a href="ppt/17第17章_周环反应.ppt" target="_blank">第十七章 - 周环反应</a></li>
-        <li><a href="ppt/18第18章_杂环化合物.ppt" target="_blank">第十八章 - 杂环化合物</a></li>
-        <li><a href="ppt/19第19章_糖类化合物.ppt" target="_blank">第十九章 - 糖类化合物</a></li>
-        <li><a href="ppt/20第20章_蛋白质和核酸.ppt" target="_blank">第二十章 - 蛋白质和核酸</a></li>
-        <li><a href="ppt/21第21章_萜类和甾族化合物.ppt" target="_blank">第二十一章 - 萜类和甾族化合物</a></li>
-      </ul>
-      <h1>说明：</h1>
-	  <p>开发环境：Spartan、GAMESS、MacMolPlt、PowerPoint 2003、ChemOffice、Node.js</p>
-	  <p>运行环境：IE6以上\Firefox\Chrome、Jmol、JRE 6(<a href="http://www.oracle.com/technetwork/java/javase/downloads/index.html">下载</a>)</p>
-	  <p>内容策划：李景宁</p>
-	  <p>内容提供：
-	  <pre>	李景宁等[电子教案]
-	汪朝阳等[化学家小传]
-	麦裕华等[主要有机物结构模型]
-	罗志勇等[谱图、振动模式教案、ChemOffice使用教程]
-	何根荣等[主要有机物的反应机理]</pre>
-	</p>
-	  <p>程序设计：何根荣</p>
+
+<body onload="init()">
+    <div id="container">
+        <div id="top"></div>
+        <div id="banner"></div>
+        <div id="menu">
+            <ul>
+                <li id="plan">
+                    <a href="index.html" class="active"></a>
+                </li>
+                <li id="mechanism">
+                    <a href="mechanism.html"></a>
+                </li>
+                <li id="biography">
+                    <a href="biography.html"></a>
+                </li>
+                <li id="model">
+                    <a href="model.html"></a>
+                </li>
+                <li id="vibration">
+                    <a href="vibration.html"></a>
+                </li>
+                <li id="chemoffice">
+                    <a href="chemoffice.html"></a>
+                </li>
+            </ul>
+        </div>
+        <div id="main">
+            <div class="content plan">
+                <h1><a href="ppt/" target="_blank">上册</a></h1>
+                <ul>
+                    <li><a href="ppt/01第1章_绪论.ppt" target="_blank">第一章 - 绪论</a></li>
+                    <li><a href="ppt/02第2章_烷烃.ppt" target="_blank">第二章 - 烷烃</a></li>
+                    <li><a href="ppt/03第3章_单烯烃.ppt" target="_blank">第三章 - 单烯烃</a></li>
+                    <li><a href="ppt/04第4章_炔烃和二烯烃.ppt" target="_blank">第四章 - 炔烃和二烯烃</a></li>
+                    <li><a href="ppt/05第5章_脂环烃.ppt" target="_blank">第五章 - 脂环烃</a></li>
+                    <li><a href="ppt/06第6章_对映异构.ppt" target="_blank">第六章 - 对映异构</a></li>
+                    <li><a href="ppt/07第7章_芳烃.ppt" target="_blank">第七章 - 芳烃</a></li>
+                    <li><a href="ppt/08第8章_现代物理实验方法在有机化学中的应用.ppt" target="_blank">第八章 - 现代物理实验方法在有机化学中的应用</a></li>
+                    <li><a href="ppt/09第09章_卤代烃.ppt" target="_blank">第九章 - 卤代烃</a></li>
+                    <li><a href="ppt/10第10章_醇酚醚.ppt" target="_blank">第十章 - 醇、酚、醚</a></li>
+                    <li><a href="ppt/11第11章_醛和酮.ppt" target="_blank">第十一章 - 醛和酮</a></li>
+                </ul>
+                <h1><a href="ppt/" target="_blank">下册</a></h1>
+                <ul>
+                    <li><a href="ppt/12第12章_羧酸.ppt" target="_blank">第十二章 - 羧酸</a></li>
+                    <li><a href="ppt/13第13章_羧酸衍生物.ppt" target="_blank">第十三章 - 羧酸衍生物</a></li>
+                    <li><a href="ppt/14第14章_含氮有机化合物.ppt" target="_blank">第十四章 - 含氮有机化合物</a></li>
+                    <li><a href="ppt/15第15章_含硫含磷和含硅有机化合物.ppt" target="_blank">第十五章 - 含硫含磷和含硅有机化合物</a></li>
+                    <li><a href="ppt/16第16章_过渡金属π络合物及其在有机合成中的应用.ppt" target="_blank">第十六章 - 过渡金属π络合物及其在有机合成中的应用</a></li>
+                    <li><a href="ppt/17第17章_周环反应.ppt" target="_blank">第十七章 - 周环反应</a></li>
+                    <li><a href="ppt/18第18章_杂环化合物.ppt" target="_blank">第十八章 - 杂环化合物</a></li>
+                    <li><a href="ppt/19第19章_糖类化合物.ppt" target="_blank">第十九章 - 糖类化合物</a></li>
+                    <li><a href="ppt/20第20章_蛋白质和核酸.ppt" target="_blank">第二十章 - 蛋白质和核酸</a></li>
+                    <li><a href="ppt/21第21章_萜类和甾族化合物.ppt" target="_blank">第二十一章 - 萜类和甾族化合物</a></li>
+                </ul>
+                <h1>说明：</h1>
+                <ul id="discription">
+                    <li>开发环境：Spartan、GAMESS、MacMolPlt、PowerPoint 2003、ChemOffice、Node.js</li>
+                    <li>运行环境：IE6以上\Firefox\Chrome、Jmol、JRE 6(<a href="http://www.oracle.com/technetwork/java/javase/downloads/index.html">下载</a>)</li>
+                    <li>内容策划：李景宁</li>
+                    <li>内容提供：
+                        <ul>
+                            <li> 李景宁等[电子教案]</li>
+                            <li>汪朝阳等[化学家小传]</li>
+                            <li>麦裕华等[主要有机物结构模型]</li>
+                            <li>罗志勇等[谱图、振动模式教案、ChemOffice使用教程]</li>
+                            <li>何根荣等[主要有机物的反应机理]</li>
+                        </ul>
+                    </li>
+                    <li>程序设计：何根荣</li>
+                </ul>
+            </div>
+            <div class="clear-left"></div>
+        </div>
+        <div id="footer">高等教育出版社 高等教育电子音像出版社</div>
     </div>
-    <div class="clear-left"></div>
-  </div>
-  <div id="footer">高等教育出版社 高等教育电子音像出版社</div>
-</div>
 </body>
+
 </html>
