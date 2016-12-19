@@ -272,7 +272,7 @@ function init() {
     //upgrade to jsmol
     //test you are using ie11 or other moden browser
     
-    if ((!!window.VBArray && ('-ms-scroll-limit' in document.documentElement.style)) || !window.VBArray ) {
+    // if ((!!window.VBArray && ('-ms-scroll-limit' in document.documentElement.style)) || !window.VBArray ) {
         var stage = $("#stage");
         var html = stage.html();
         stage.html("");
@@ -299,7 +299,7 @@ function init() {
                 }
             }
         }
-    }
+    // }
     
     //-------------------------------------------------
 
