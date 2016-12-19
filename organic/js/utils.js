@@ -277,7 +277,7 @@ function init() {
         var html = stage.html();
         stage.html("");
         var jsmol = document.createElement("script");
-        jsmol.src = "jsmol.min.js";
+        jsmol.src = "JSmol.min.js";
         document.getElementsByTagName('head')[0].appendChild(jsmol);
         //when the jsmol component is loaded,$()function is replaced to jQuery
         jsmol.onload = jsmol.onreadystatechange = function() {
